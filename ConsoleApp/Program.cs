@@ -17,3 +17,18 @@ HereIsAFunction();
 int a = 4;
 int b = 5;
 Console.WriteLine(a+b);
+
+static float calculateTheAverage(int [] arr )
+{
+    float counter = 0;
+    for (int i =0; i<arr.Length; i++)
+    {
+        counter += arr[i];
+    }
+    counter =counter/ arr.Length;
+    
+    return counter;
+}
+
+int[] arr = [1,2,3,4,5,6,7,8,9,10,11,14];
+Console.WriteLine(calculateTheAverage(arr));
