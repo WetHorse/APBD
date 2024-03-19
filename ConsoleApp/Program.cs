@@ -20,7 +20,7 @@ Console.WriteLine(a+b);
 
 static float calculateTheAverage(int [] arr )
 {
-    float counter = 0;
+    float counter = 1; //started from 1
     for (int i =0; i<arr.Length; i++)
     {
         counter += arr[i];
